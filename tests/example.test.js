@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const { expect } = require('chai');
 
 describe('Google Search', function() {
+
   let browser;
   let page;
 
